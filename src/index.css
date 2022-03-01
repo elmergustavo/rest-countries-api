@@ -1,0 +1,23 @@
+/* ./src/index.css */
+
+:root {
+  @apply dark;
+}
+
+.light {
+  --color-bg-primary: hsl(0, 0%, 98%);
+  --color-text-primary: hsl(200, 15%, 8%);
+  --color-element-primary: hsl(0, 0%, 100%);
+  --color-input-primary: hsl(0, 0%, 52%);
+}
+
+.dark {
+  --color-bg-primary: hsl(207, 26%, 17%);
+  --color-text-primary: hsl(0, 0%, 100%);
+  --color-element-primary: hsl(209, 23%, 22%);
+  --color-input-primary: hsl(0, 0%, 52%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
