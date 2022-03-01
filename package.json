@@ -1,6 +1,6 @@
 {
   "homepage": "https://elmergustavo.github.io/rest-countries-api/",
-  "name": "country-finder",
+  "name": "rest-countries-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
